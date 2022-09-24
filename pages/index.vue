@@ -5,7 +5,7 @@
       <a href="/"
         ><img
           class="mx-auto d-block img-fluid"
-          src="images/arcah1.jpg"
+          src="~/assets/images/arcah1.jpg"
           alt="Arca Musica"
       /></a>
     </h1>
