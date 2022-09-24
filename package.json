@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "npm:nuxt3@latest",
+    "sass": "^1.54.9",
+    "sass-loader": "^13.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "swissqrbill": "^3.2.1",
+    "vee-validate": "^4.6.9"
+  }
+}
