@@ -17,9 +17,34 @@
         class="collapse navbar-collapse justify-content-center"
         id="navbarSupportedContent"
       >
-        <ul class="navbar-nav">
+        <div class="navbar-nav">
+          <NuxtLink to="/" class="n-link-base nav-link"> Accueil </NuxtLink>
+
+          <NuxtLink to="/presentation" class="n-link-base nav-link">
+            Présentation
+          </NuxtLink>
+          <NuxtLink to="/courstarifs" class="n-link-base nav-link"
+            >Cours et Tarifs
+          </NuxtLink>
+          <NuxtLink to="/professeurs" class="n-link-base nav-link">
+            Professeurs
+          </NuxtLink>
+          <NuxtLink to="/inscriptions" class="n-link-base nav-link">
+            Inscriptions
+          </NuxtLink>
+          <NuxtLink to="/informationsgenerales" class="n-link-base nav-link">
+            Informations Générales
+          </NuxtLink>
+          <NuxtLink to="/planacces" class="n-link-base nav-link">
+            Plan d'accès
+          </NuxtLink>
+          <NuxtLink to="/seminaires" class="n-link-base nav-link">
+            Séminaires
+          </NuxtLink>
+        </div>
+        <!-- <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Accueil</a>
+            <a class="nav-link" aria-current="page" href="/">Accueil</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/presentation">Présentation</a>
@@ -44,7 +69,7 @@
           <li class="nav-item">
             <a class="nav-link" href="/seminaires">Nos séminaires</a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </nav>
